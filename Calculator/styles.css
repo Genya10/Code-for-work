@@ -1,13 +1,13 @@
 /*Calculator*/
 .calculator {
-    margin: auto;
+    width: 70%;
+    margin-left: 100px;
     display: flex;
     align-items: center;
-    padding: 40px 0 51px 26px;
+    padding: 40px 0px 51px 26px;
     box-sizing: border-box;
-    gap: 14%;  
-    background: linear-gradient(180deg, #d81e05, #490900);
-    width: 70%;
+    gap:4%;  
+    background: linear-gradient(180deg, #d81e05, #490900);   
     border-radius: 16px;
   }
   
@@ -25,16 +25,12 @@
     justify-content: center;
   }
   
-  .calc-left {
+  .calc-left-block {
     width: 690px;
     height: 400px;
     padding: 40px;
     border-radius: 20px;
     background: #fff;
-  }
-  
-  .calc-right-block:first-child {
-    margin-bottom: 40px;
   }
   
   .calc-right-text {
@@ -54,7 +50,7 @@
   }
   
   .range-slider {
-    margin-bottom: 50px;
+    margin-bottom: 90px;
   }
   
   .calc-profit {
@@ -95,7 +91,7 @@
   .irs--round .irs-from,
   .irs--round .irs-to,
   .irs--round .irs-single {
-    background-color: (11, 103, 169, 1);
+    background-color: rgb(11, 103, 169);
   }
   
   .irs--round .irs-bar {
@@ -109,7 +105,7 @@
   }
   
   .irs--round .irs-handle {
-    border-color: #d52b1e !important;
+    border-color: #d52a1e !important;
   }
   
   .irs--round .irs-from:before,
