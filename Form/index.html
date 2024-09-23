@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="form-container">
+        <form id="registrationForm" class="form">
+          <input type="text" id="firstName" name="firstName" placeholder="IL SUO NOME" required>
+          <div class="error-msg"></div>
+          <input type="text" id="lastName" name="lastName" placeholder="IL SUO COG" required>
+          <div class="error-msg"></div>
+          <input type="email" id="email" name="email" placeholder="E-MAIL" required>
+          <div class="error-msg"></div>
+          <input type="tel" id="phone" name="phone" autocomplete="off" placeholder="TEL" required>
+          <div class="error-msg"></div>
+          <input type="hidden" name="country" value="">
+          <input type="hidden" class="phonecc" value="">
+          <button type="submit" class="btn-form">Register</button>
+        </form>
+      </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

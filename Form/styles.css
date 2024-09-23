@@ -1,0 +1,82 @@
+.form-container {
+  display: flex;
+  width: 599px;
+  height: 536px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background: url(./images/bigLogo.png) no-repeat center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 354px;
+  height: 387px;
+  box-shadow: 0 0 12px 12px #d81e054a;
+  border-radius: 15px;
+  background: #4a4a4ad1;
+  box-sizing: border-box;
+  gap: 2px;
+  padding: 20px;
+}
+
+input {
+  padding: 11px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+input:first-child {
+  margin-top: 20px;
+}
+
+.btn-form {
+  margin-top: 0px;
+  width: 300px;
+  height: 45px;
+  border-radius: 4px;
+  border: none;
+  background: #d81e05;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17.5px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/*Errors*/
+.error-msg {
+  color:rgba(0, 0, 0, 0.833);
+  font-weight: 700;
+  padding-left: 40px;
+  font-size: 14px;
+  margin-top: 5px;
+  min-height: 15px;
+  visibility: hidden;
+  display: block;
+}
+
+.error-msg.show {
+  visibility: visible;
+}
+
+.error {
+  border-color: red;
+}
+
+.form input,
+.form button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.form button:hover {
+  background-color: #c71b04;
+}
