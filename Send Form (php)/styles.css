@@ -33,4 +33,5 @@ textarea.form__input {
   height: 2.5rem;
   color: #fff;
   text-transform: uppercase;
+  cursor: pointer;
 }

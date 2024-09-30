@@ -8,10 +8,10 @@
  if(trim($content)){
     $content = "<b>Message from Site:</b>\n".$content
     // Your bot's token that from @BotFather
-    $apiToken = ''
+    $apiToken = '7708282736:AAFyLHMBS26rxrOzXoQ7RWqVOWFaL1syvaU'
     $data = [
         // The user's(that you want send a message) telegram chat id
-        'chat_id' => '',
+        'chat_id' => 'CodeGetMessages',
         'text' => $content,
         'parse_mode' => 'HTML'
     ]
